@@ -2580,3 +2580,19 @@ footer hr {
     padding: 0 30px 20px 20px;
   }
 }
+
+/* Google Maps */
+.googlemap {
+  position: relative;
+  padding-bottom: 35%;
+  /* 4:3 ratio*/
+  height: 450;
+  overflow: hidden;
+}
+
+.googlemap iframe {
+  position: absolute;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
