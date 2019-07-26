@@ -30,7 +30,7 @@ if (empty($_POST["message"])) {
     $message = $_POST["message"];
 }
 
-$EmailTo = "dimitrovinc@live.com";
+$EmailTo = "info@cubesole.ai";
 $Subject = "New Message Received";
 
 // prepare email body text
