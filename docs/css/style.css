@@ -404,6 +404,11 @@ button:hover,
   padding-top: 120px;
 }
 
+.container-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .footer-padding {
   padding-top: 60px;
   padding-bottom: 60px;
