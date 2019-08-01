@@ -1970,6 +1970,11 @@ span.portfolio-hover a {
   color: #313131;
 }
 
+.popup-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #thework {
   display: -webkit-flex;
@@ -1978,99 +1983,6 @@ span.portfolio-hover a {
   -webkit-align-content: flex-start;
 }
 
-/* =Pricing
--------------------------------------------------------------- */
-.plan {
-  list-style: none;
-  padding: 0;
-  background: #2B2B2B;
-  text-align: center;
-}
-
-.plan li {
-  padding: 10px 15px;
-  font-size: 14px;
-  color: #ccc;
-  border-top: 1px solid #313131;
-  -webkit-transition: 300ms;
-  transition: 300ms;
-}
-
-.plan li.plan-price {
-  border-top: 0;
-}
-
-.plan li.plan-name {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  padding: 15px;
-  font-size: 24px;
-  line-height: 24px;
-  color: #fff;
-  background: #191919;
-  margin-bottom: 15px;
-  border-top: 0;
-}
-
-.plan li>strong {
-  color: #8980FE;
-  font-size: 18px;
-}
-
-.plan li.plan-action {
-  padding: 18px;
-}
-
-.plan.featured {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-
-.plan.featured li.plan-name {
-  background: #191919;
-}
-
-.plan.featured:hover li.plan-name {
-  background: #8980FE;
-}
-
-.plan.featured2 li.plan-name {
-  background: #191919;
-}
-
-.plan.featured2:hover li.plan-name {
-  background: #8980FE;
-}
-
-.plan:hover li.plan-name {
-  background: #131313;
-}
-
-.plan-name-option3 {
-  font-size: 12px !important;
-  margin-bottom: 0 !important;
-  font-weight: 300 !important;
-}
-
-#footer {
-  margin-top: 100px;
-  padding-bottom: 30px;
-}
-
-.pricing-clients {
-  width: 150px;
-  display: inline-block;
-  opacity: .6;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.pricing-clients:hover {
-  opacity: 1;
-}
 
 /* =Timeline
 -------------------------------------------------------------- */
@@ -2429,6 +2341,11 @@ footer hr {
 
   .jumbotron.jumbotron-register h1 {
     font-size: 40px;
+  }
+
+  .popup-image {
+    width: 100px;
+    height: 60px;
   }
 }
 
