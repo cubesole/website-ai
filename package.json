@@ -1,0 +1,25 @@
+{
+  "name": "cubesole.ai",
+  "version": "1.0.0",
+  "description": "The official website for cubesole.ai",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankchanocd/cubesole-ai-website.git"
+  },
+  "keywords": [
+    "cubesole",
+    "ai"
+  ],
+  "author": "Hank Chan <hankchan@cubesole.ai> (https://github.com/hankchanocd)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hankchanocd/cubesole-ai-website/issues"
+  },
+  "homepage": "https://github.com/hankchanocd/cubesole-ai-website#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
